@@ -1,4 +1,4 @@
-# SubtitleBot
+# SubWorldBot
 
 A Simple Telegram subtitle Bot Made in Python.
 
@@ -20,8 +20,8 @@ This project is not made of any api or third party applications. Bot is made by 
 
 ## Community
 
-- Telegram Support Chat : [@KeralasBots](https://telegram.dog/KeralasBots)
-- Telegram Updates Channel : [KeralaBotsNews](https://telegram.dog/KeralaBotsNews)
+- Telegram Support Chat : [@MasterTrick2](https://telegram.dog/MasterTrick2)
+- Our Youtube Channel : [YoutubeChannel](https://youtube.com/mastertrick1)
 
 ## Contribution
 

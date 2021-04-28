@@ -34,4 +34,4 @@ def searching(update: Update, context: CallbackContext):
         inline_keyboard.append([InlineKeyboardButton(subtitle, callback_data=f"{key}")])
 
     reply_markup = InlineKeyboardMarkup(inline_keyboard)
-    context.bot.edit_message_text(chat_id=update.effective_chat.id, message_id=search_message.message_id, text=f"Got the following results for your query *{sub_name}*. Select the preffered type from the below options", parse_mode="Markdown", reply_markup=reply_markup)
+    context.bot.edit_message_text(chat_id=update.effective_chat.id, message_id=search_message.message_id, text=f"Got the following results for your *{sub_name}*. Select the preffered type from the below options", parse_mode="Markdown", reply_markup=reply_markup)

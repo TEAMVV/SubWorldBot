@@ -1,14 +1,14 @@
 {
-    "name": "SubtitlesBot",
-    "description": "A simple subtitle bot made in python. Create your Fork now.",
+    "name": "SubWorldBot",
+    "description": "SubWorldBot - Subtitle Downloader Bot",
     "keywords": [
         "telegram",
         "subtitle",
         "searcher",
         "download"
     ],
-    "website": "https://github.com/Anandpskerala/SubtitlesBot",
-    "repository": "https://github.com/Anandpskerala/SubtitlesBot",
+    "website": "https://botolbaba.ml",
+    "repository": "https://github.com/botolmehedi",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token",

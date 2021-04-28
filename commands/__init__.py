@@ -13,18 +13,18 @@ from telegram import (
 from telegram.ext import CallbackContext
 
 def start(update: Update, context: CallbackContext):
-    context.bot.send_message(chat_id=update.effective_chat.id, text=f"Hi *{update.effective_user.first_name}*!\n\nI am subtitle downloader bot. I can provide movie subtitles.\n\n==> Just send me Movie name. Use @imdb or @imdbot inline to get currect movie name.\n\nSubscribe ℹ️ @Keralabotsnews if you ❤️ using this bot!", parse_mode="Markdown")
+    context.bot.send_message(chat_id=update.effective_chat.id, text=f"Hi *{update.effective_user.first_name}*!\n\nI am a simple subtitle downloader bot. I can provide movie subtitles.\n\n⭐️ Just send me Movie name. Use @imdb or @imdbot inline to get correct movie name.\n\n⚡️Need Help❓\n👉Join : @MasterTrick2\n\n©Via : SubWorldBD\n©Author : @BotolBaba\n©Sub From : @iSubtitles\n\n💋❤️💋Thanks For Using Our Bot💋❤️💋", parse_mode="Markdown")
 
 def searching(update: Update, context: CallbackContext):
     if update.message.via_bot != None:
         return
 
-    search_message = context.bot.send_message(chat_id=update.effective_chat.id, text="Searching your subtitle file")
+    search_message = context.bot.send_message(chat_id=update.effective_chat.id, text="⚡️⚡️Please Wait. Searching Your Subtitle⚡️⚡️")
     sub_name = update.effective_message.text
     full_index, title, keyword = search_sub(sub_name)
     inline_keyboard = []
     if len(full_index) == 0:
-        context.bot.edit_message_text(chat_id=update.effective_chat.id, message_id=search_message.message_id, text="No results found")
+        context.bot.edit_message_text(chat_id=update.effective_chat.id, message_id=search_message.message_id, text="Oops😕\n\n👉No Results Found😭\n\n⚡️Please Send Me Correct Movie Name😡")
         return
     
     index = full_index[:15]

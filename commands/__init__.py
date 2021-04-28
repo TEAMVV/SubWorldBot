@@ -19,12 +19,12 @@ def searching(update: Update, context: CallbackContext):
     if update.message.via_bot != None:
         return
 
-    search_message = context.bot.send_message(chat_id=update.effective_chat.id, text="⚡️⚡️Please Wait. Searching Your Subtitle⚡️⚡️")
+    search_message = context.bot.send_message(chat_id=update.effective_chat.id, text="⚡️⚡️Please Wait. Searching Your Subtitle⚡️⚡️", parse_mode="Markdown")
     sub_name = update.effective_message.text
     full_index, title, keyword = search_sub(sub_name)
     inline_keyboard = []
     if len(full_index) == 0:
-        context.bot.edit_message_text(chat_id=update.effective_chat.id, message_id=search_message.message_id, text="Oops😕\n\n👉No Results Found😭\n\n⚡️Please Send Me Correct Movie Name😡")
+        context.bot.edit_message_text(chat_id=update.effective_chat.id, message_id=search_message.message_id, text="Oops😕\n\n👉No Results Found😭\n\n⚡️Please Send Me Correct Movie Name😡",parse_mode="Markdown")
         return
     
     index = full_index[:15]

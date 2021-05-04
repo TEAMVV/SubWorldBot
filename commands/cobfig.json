@@ -1,0 +1,21 @@
+{
+    "DeveloperMode": true,
+    "AutoChangeName": false,
+    "autoCreateDB": true,
+    "allowInbox": true,
+    "selfListen": false,
+    "commandDisabled": [],
+    "eventDisabled": [],
+    "EMAIL": "HostDomain708@gmail.com",
+    "PASSWORD": "BOTOL@01842040441",
+    "OTPKEY": "",
+    "BOTNAME": "Mehedi Hasan",
+    "PREFIX": "!",
+    "ADMINBOT": "",
+    "DATABASE": {
+        "sqlite": {
+            "storage": "data.sqlite"
+        }
+    },
+    "APPSTATEPATH": "appstate.json"
+}

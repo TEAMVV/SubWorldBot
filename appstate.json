@@ -1,6 +1,6 @@
 [
   {
-    "key": "sb",
+    "name": "sb",
     "value": "eks7YOmOkkh8fooQe1YhUmdm",
     "domain": ".facebook.com",
     "path": "/",
@@ -9,7 +9,7 @@
     "secure": true
   },
   {
-    "key": "datr",
+    "name": "datr",
     "value": "YyxcYEjflE3yc6_gXd0rhq2q",
     "domain": ".facebook.com",
     "path": "/",
@@ -18,7 +18,7 @@
     "secure": true
   },
   {
-    "key": "dpr",
+    "name": "dpr",
     "value": "3",
     "domain": ".facebook.com",
     "path": "/",
@@ -27,7 +27,7 @@
     "secure": true
   },
   {
-    "key": "_fbp",
+    "name": "_fbp",
     "value": "fb.1.1619763458884.1144511182",
     "domain": ".facebook.com",
     "path": "/",
@@ -37,7 +37,7 @@
     "sameSite": "Lax"
   },
   {
-    "key": "locale",
+    "name": "locale",
     "value": "en_GB",
     "domain": ".facebook.com",
     "path": "/",
@@ -46,7 +46,7 @@
     "secure": true
   },
   {
-    "key": "wd",
+    "name": "wd",
     "value": "360x524",
     "domain": ".facebook.com",
     "path": "/",
@@ -55,7 +55,7 @@
     "secure": true
   },
   {
-    "key": "c_user",
+    "name": "c_user",
     "value": "100066807444736",
     "domain": ".facebook.com",
     "path": "/",
@@ -64,7 +64,7 @@
     "secure": true
   },
   {
-    "key": "xs",
+    "name": "xs",
     "value": "11%3As5hqNZDOH2Gtfg%3A2%3A1620098203%3A-1%3A-1",
     "domain": ".facebook.com",
     "path": "/",
@@ -73,7 +73,7 @@
     "secure": true
   },
   {
-    "key": "fr",
+    "name": "fr",
     "value": "1qPDWmZ47MveuVz7e.AWVCPesRM7QS9XG_AfBd9ZYwMzU.BgdTk7.7L.AAA.0.0.BgkLya.AWX5bl36G1c",
     "domain": ".facebook.com",
     "path": "/",
